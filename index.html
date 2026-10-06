@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>the Bull &amp; the Bear has moved</title>
+<script>
+  // thebullandthebear.blog -> bullandbearblog.com, keeping old links working.
+  var NEW = 'https://bullandbearblog.com';
+  // Old WordPress URLs -> new pages
+  var MAP = {
+    '/2026/04/17/is-the-nasdaq-the-new-meme-coin': '/articles/nasdaq-meme-coin.html',
+    '/2026/03/23/the-markets-awkward-phase-understanding-the-current-range-in-major-indices': '/articles/markets-awkward-phase.html',
+    '/2026/02/24/bitcoin-history-cycles-and-why-patience-matters': '/articles/bitcoin-history.html',
+    '/2026/02/09/opinion-what-i-believe-the-future-looks-like-with-ai-integration': '/articles/ai-future.html',
+    '/2026/01/26/software-stocks-tank-generational-buying-opportunity-or-a-trap': '/articles/software-stocks-tank.html',
+    '/2026/01/18/amat-investment-thesis-is-applied-materials-becoming-overbought': '/articles/amat-thesis.html',
+    '/2026/01/06/buying-low-vs-buying-wrong-why-some-selloffs-are-justified': '/articles/buying-low-vs-wrong.html',
+    '/2025/12/30/stock-market-outlook-for-2026': '/articles/market-outlook-2026.html',
+    '/2025/12/13/what-happened-to-oracle-orcl-stock-oracle-investment-thesis': '/articles/oracle-thesis.html',
+    '/2025/12/05/do-banks-and-hedge-funds-predict-markets-or-create-the-moves-themselves': '/articles/banks-hedge-funds.html',
+    '/2025/11/30/investment-thesis-unitedhealth-group-inc': '/articles/unitedhealth-thesis.html',
+    '/2025/11/21/from-fear-to-opportunity-understanding-the-market-sell-off-and-why-there-is-no-need-to-panic': '/articles/fear-to-opportunity.html',
+    '/2025/11/15/softbank-cashes-out-5-8-billion-stake-in-nvidia-why-this-move-is-bullish-for-the-ai-trade': '/articles/softbank-nvidia.html',
+    '/2025/11/07/investment-thesis-meta-platforms-inc': '/articles/meta-thesis.html',
+    '/2025/11/05/investment-advice-disclaimer': '/disclaimer.html',
+    '/2025/11/05/investment-thesis-uber': '/articles/uber-thesis.html',
+    '/2025/11/02/big-tech-earnings-reality-check-is-the-ai-surge-echoing-the-dot-com-era': '/articles/bigtech-earnings.html',
+    '/2025/10/19/why-playing-it-safe-could-cost-you-rethinking-index-fund-investing': '/articles/index-fund-investing.html',
+    '/2025/10/14/buying-the-dip-what-aprils-stock-market-tariff-collapse-teaches-investors': '/articles/buying-the-dip.html',
+    '/the-compression-conviction-framework': '/strategy.html',
+    '/about': '/about.html',
+    '/octobers-stock-pick': '/',
+    '/stock-of-the-month': '/'
+  };
+  var path = location.pathname.replace(/\/+$/, '') || '/';
+  var dest = MAP[path] || location.pathname; // anything else keeps its path on the new domain
+  location.replace(NEW + dest + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=https://bullandbearblog.com/">
+<link rel="canonical" href="https://bullandbearblog.com/">
+</head>
+<body style="font-family:system-ui,sans-serif;padding:2rem">
+  <p>the Bull &amp; the Bear has moved to <a href="https://bullandbearblog.com/">bullandbearblog.com</a>.</p>
+</body>
+</html>
